@@ -1,5 +1,7 @@
 body{
-  background-color: #b7babd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 header{
@@ -197,4 +199,97 @@ header{
 .cattegorie_btn:hover{
   background-color: #675e92;
   outline: 0 !important;
+}
+
+.сlothes-grid{
+  padding-top: 50px;
+  padding-left: 40px;
+  height: 100vh;
+}
+
+footer{
+  /* margin-top: auto;   */
+}
+
+.footer_position{
+  padding-top: 30px;
+  padding-bottom: 30px; 
+}
+
+.footer-text{
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.footer-text-a{
+  color: rgb(180, 177, 177);
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.footer-text-a:hover{
+  color: rgb(255, 254, 254);
+  text-decoration: none;
+}
+
+.footer_h5{
+  font-size: 21px;
+}
+
+.payment_block{
+  margin-left: -80px;
+}
+
+.payment-foto_visa{
+  width: 60px;
+
+}
+
+.payment-foto_mastercard{
+  width: 60px;
+}
+
+.payment-foto_google-pay{
+  width: 70px;
+}
+
+.payment-foto_apple-pay{
+  width: 60px;
+}
+
+.payment-methods-background{
+  border-radius: 0 2rem 2rem 2rem;
+  max-height: 130px;
+}
+
+.payment-methods .col-6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 0;
+}
+
+.social_networks a{
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.bi{
+  transition: 0.3s;
+}
+
+.bi:hover{
+  fill: rgb(150, 147, 147);
+  cursor: pointer;
+}
+
+
+.about-us_h5{
+  margin-left: 40px;
+}
+
+.social_networks{
+  margin-left: 40px;
 }
