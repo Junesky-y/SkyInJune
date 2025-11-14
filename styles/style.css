@@ -201,8 +201,21 @@ header{
   outline: 0 !important;
 }
 
+
+.first_slider {
+  margin-top: 10px;
+}
+
+.gallery-cell {
+  margin-right: 100px;
+}
+
+.gallery-cell img{
+  border-radius: 1.5rem;
+}
+
 .сlothes-grid{
-  padding-top: 50px;
+  padding-top: 70px;
   height: 100vh;
 }
 
@@ -330,5 +343,6 @@ footer{
 }
 
 .social_networks{
-  margin-left: 40px;
+  margin-left:
+   40px;
 }
