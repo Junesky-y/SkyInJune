@@ -1,0 +1,27 @@
+{
+  "name": "skyinjune",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Junesky-y/SkyInJune.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Junesky-y/SkyInJune/issues"
+  },
+  "homepage": "https://github.com/Junesky-y/SkyInJune#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  },
+  "dependencies": {
+    "jest-environment-jsdom": "^30.2.0"
+  }
+}
