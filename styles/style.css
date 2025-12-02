@@ -227,7 +227,7 @@ header{
 }
 
 .clothes-image {
-  height: 260px;
+  height: 255px;
   object-fit: cover;
 }
 
@@ -258,6 +258,7 @@ header{
 .сlothes-grid img{
   border-radius: 1.5rem;
 }
+
 
 footer{
   /* margin-top: auto;   */
@@ -345,4 +346,139 @@ footer{
 .social_networks{
   margin-left:
    40px;
+}
+
+/* cloth-page */
+
+
+
+.small-image {
+  width: 80px; 
+  border-radius: 1rem;
+  height: 90px;
+  margin-bottom: 30px;
+  margin-left: 70px;
+}
+.small-image:hover{
+  cursor: pointer;
+  border: solid #495057;
+}
+
+.large-image{
+  border-radius: 2rem;
+  height: 450px;
+  width: 450px;
+  margin-left: -100px;
+}
+
+
+.clothes-info{
+  margin-left: -150px;
+}
+
+.in-stock{
+  color: rgb(129, 233, 129);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.clothes-name{
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.price{
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.clothes-info-text{
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.size-div{
+  text-align: center;
+}
+
+.size{
+  border: solid #495057;
+  border-radius: 0.7rem;
+  width: 90px;
+  font-weight: 500;
+}
+
+.button-buy{
+background-color: rgb(129, 233, 129);
+width: 115px;
+height: 50px;
+border: none;
+border-radius: 1rem;
+font-weight: 700;
+font-size: 19px;
+margin-bottom: 25px;
+margin-top: 10px;
+}
+
+.button-buy:hover , .button-buy:focus{
+  background-color: rgb(35, 221, 69);
+  cursor: pointer;
+}
+
+.button-in-the-basket{
+  background-color: white;
+  width: 115px;
+  height: 50px;
+  border: solid black;
+  border-radius: 1rem;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.button-in-the-basket:hover , .button-in-the-basket:focus{
+  background-color: #000000;
+  cursor: pointer;
+  color: white;
+}
+
+.clothing-section{
+  margin-top: 60px;
+}
+
+.under-border{
+  width: 1000px;
+  height: 30px;
+  margin-bottom: 50px;
+  border-bottom: 3px solid #373737;
+}
+
+.under-border p{
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: -25px;
+}
+
+.delivery img{
+  width: 30px;
+
+}
+
+.delivery p{
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.delivery h2{
+  font-size: 25px;
+}
+
+.delivery {
+  margin-bottom: 40px;
+}
+
+.active-border {
+  border: solid #495057;
 }
